@@ -1,3 +1,3 @@
-#Random Quote Generator
+# Random Quote Generator
 
-[Live](https://hellooohk.github.io/random-quote-js/)
+[Live Website](https://hellooohk.github.io/random-quote-js/)
