@@ -6,7 +6,7 @@ async function fetchQuote() {
   const data = await response.json();
   quote.innerText = data.content;
   author.innerText = data.author;
-  
 }
 fetchQuote();
+
 button.addEventListener("click", () => fetchQuote());
