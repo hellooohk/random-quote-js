@@ -8,16 +8,16 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: sans-serif;
-  background: linear-gradient(to right,#B2A4FF,#FFB4B4);
+  background: linear-gradient(to right, #b2a4ff, #ffb4b4);
 }
 .quote-container {
   text-align: center;
   width: 30rem;
   margin-top: 10rem;
-  background: linear-gradient(to right,#B2A4FF,#FFB4B4);
+  background: linear-gradient(to right, #b2a4ff, #ffb4b4);
   padding: 3rem 5rem;
   border-radius: 0.5rem;
-  box-shadow: -5px 5px 10px #B2A4FF;
+  box-shadow: -5px 5px 10px #b2a4ff;
 }
 #quote,
 #author {
@@ -27,14 +27,16 @@ body {
   font-size: 1.3rem;
   line-height: 1.8rem;
   color: #000;
-  font-weight: 600;
 }
 #author {
   font-style: italic;
 }
+#get-quote,
+#quote {
+  font-weight: 600;
+}
 #get-quote {
   padding: 0.8rem 1.6rem;
-  font-weight: 600;
   border: 1px solid #fff;
   color: #fff;
   background-color: #000;
@@ -44,7 +46,7 @@ body {
   cursor: pointer;
   border: 1px solid #000;
   color: #000;
-  background: linear-gradient(to right,#B2A4FF,#FFB4B4);
+  background: linear-gradient(to right, #b2a4ff, #ffb4b4);
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
